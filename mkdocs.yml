@@ -1,6 +1,6 @@
 site_name: ZJU_CSSU
 site_url: https://ZJUCSSU.github.io/home/
-repo_url: https://github.com/ZJUCSSU/home
+repo_url: https://github.com/ZJUCSSU/home/
 repo_name: ZJUCSSU/home
 site_description: Welcome to ZJU_CSSU
 site_author: ZJU_CSSU
@@ -161,10 +161,10 @@ extra: # 额外设定
   homepage: . # 左上角徽标链接的地址（此处为一个点，也就是主页）
   social: # 联系方式（页面右下角内容）
     - icon: fontawesome/brands/github # 图标（可以去官网看有哪些）
-      link: https://github.com/ZJUCSSU/home # 链接
+      link: https://ZJUCSSU.github.io/home/ # 链接
       name: GitHub 仓库 # 提示词
     - icon: fontawesome/solid/house
-      link: https://github.com/ZJUCSSU/home
+      link: https://github.com/ZJUCSSU/home/
       name: 主页
     - icon: fontawesome/solid/paper-plane
       link: mailto:1744523875@qq.com
@@ -181,43 +181,43 @@ extra: # 额外设定
   #- CSS/other.css
   #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
-plugins: # 插件
-  - git-revision-date-localized: # 文章日期显示插件（pip install mkdocs-git-revision-date-localized-plugin）注意：build 时此插件加载非常缓慢！
-      enable_creation_date: true # 显示创建的日期
-      type: datetime # 每页底下显示最后更新日期，类型是 datatime（日期+时间），或者 data（只有日期）等
-      locale: zh # 换成中文显示
-  - git-authors: # 文章作者显示插件（pip install mkdocs-git-authors-plugin）注意：build 时此插件加载非常缓慢！
-      show_contribution: true # 显示贡献比例
-      show_line_count: true # 记录行数
-      show_email_address: true # 显示邮箱
-      count_empty_lines: false # 记录空行的贡献
-      fallback_to_empty: false # 不懂
-      sort_authors_by: contribution # 贡献者名单排序方式 (name, contribution)
-      authorship_threshold_percent: 0 # 筛选掉贡献比例低于该百分比的贡献者
-  - glightbox: # 图像缩放插件（pip install mkdocs-glightbox）
-      touchNavigation: true # 启用或禁用触摸导航（轻扫），应该是便于手机用户吧
-      loop: false # 换图时循环
-      effect: zoom # 打开图时的效果(zoom, fade, none)
-      slide_effect: slide # 切换图片时的效果(slide, zoom, fade, none)
-      width: auto # 内联元素和 iframe 的宽度。您可以使用任何单位或者 auto
-      height: auto # 同上
-      zoomable: false # 启用或禁用可缩放图像，不懂干啥的
-      draggable: true # 启用或禁用鼠标拖动以转到上一张和下一张图片
-      auto_caption: false # 自动启用或禁用使用图像的替代文本作为标题
-      caption_position: bottom # 标题位置 (bottom, top, left, right)
-      background: none # 背景颜色
-      shadow: true # 启用或禁用图像阴影
-  - changelog # 日志插件（pip install mkdocs-changelog-plugin）
-  - statistics: # 数据统计插件（pip install mkdocs-statistics-plugin）
-      codelines_per_minute: 15 # 每分钟可看的代码行数
-      words_per_minute: 150 # 每分钟可看的文本数
-  - minify: # 压缩文件的插件（pip install mkdocs-minify-plugin）
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      htmlmin_opts:
-        remove_comments: true
-      cache_safe: true
+# plugins: # 插件
+#   - git-revision-date-localized: # 文章日期显示插件（pip install mkdocs-git-revision-date-localized-plugin）注意：build 时此插件加载非常缓慢！
+#       enable_creation_date: true # 显示创建的日期
+#       type: datetime # 每页底下显示最后更新日期，类型是 datatime（日期+时间），或者 data（只有日期）等
+#       locale: zh # 换成中文显示
+#   - git-authors: # 文章作者显示插件（pip install mkdocs-git-authors-plugin）注意：build 时此插件加载非常缓慢！
+#       show_contribution: true # 显示贡献比例
+#       show_line_count: true # 记录行数
+#       show_email_address: true # 显示邮箱
+#       count_empty_lines: false # 记录空行的贡献
+#       fallback_to_empty: false # 不懂
+#       sort_authors_by: contribution # 贡献者名单排序方式 (name, contribution)
+#       authorship_threshold_percent: 0 # 筛选掉贡献比例低于该百分比的贡献者
+#   - glightbox: # 图像缩放插件（pip install mkdocs-glightbox）
+#       touchNavigation: true # 启用或禁用触摸导航（轻扫），应该是便于手机用户吧
+#       loop: false # 换图时循环
+#       effect: zoom # 打开图时的效果(zoom, fade, none)
+#       slide_effect: slide # 切换图片时的效果(slide, zoom, fade, none)
+#       width: auto # 内联元素和 iframe 的宽度。您可以使用任何单位或者 auto
+#       height: auto # 同上
+#       zoomable: false # 启用或禁用可缩放图像，不懂干啥的
+#       draggable: true # 启用或禁用鼠标拖动以转到上一张和下一张图片
+#       auto_caption: false # 自动启用或禁用使用图像的替代文本作为标题
+#       caption_position: bottom # 标题位置 (bottom, top, left, right)
+#       background: none # 背景颜色
+#       shadow: true # 启用或禁用图像阴影
+#   - changelog # 日志插件（pip install mkdocs-changelog-plugin）
+#   - statistics: # 数据统计插件（pip install mkdocs-statistics-plugin）
+#       codelines_per_minute: 15 # 每分钟可看的代码行数
+#       words_per_minute: 150 # 每分钟可看的文本数
+#   - minify: # 压缩文件的插件（pip install mkdocs-minify-plugin）
+#       minify_html: true
+#       minify_js: true
+#       minify_css: true
+#       htmlmin_opts:
+#         remove_comments: true
+#       cache_safe: true
 
 
 nav: 
