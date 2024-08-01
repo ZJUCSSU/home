@@ -1,0 +1,53 @@
+site_name: ZJU_CSSU
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+
+nav: 
+  - 主页: index.md
+  - 每日通知:
+    - 学院重要通知: 学院通知/学院重要通知.md
+    - 学生会活动通知: 学院通知/学生会活动.md
+    - 今日十大: 学院通知/今日十大.md 
+  - 意见反馈:
+    - 吐槽回应: 意见反馈/吐槽回应.md
+    - 通知答疑: 意见反馈/通知答疑.md
+  - 知识共享:
+    - 课程学习: 知识共享/课程笔记/example.md
+    - 课外学习: 知识共享/课外学习/example.md
+  - 资源分享:
+    - 笔记分享: 资源分享/个人笔记/example.md
+    - 项目分享: 资源分享/个人项目/example.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZJUCSSU?tab=repositories
+      name: ZJUCSSU's github
+repo_url: https://github.com/ZJUCSSU?tab=repositories
+repo_name: ZJUCSSU's github
+
+extra_css:
+  - CSS/admonition.css
+  - CSS/other.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
