@@ -170,16 +170,16 @@ extra: # 额外设定
       link: mailto:1744523875@qq.com
       name: 联系作者
 
-extra_javascript: # 额外 JS
+#extra_javascript: # 额外 JS
   #- javascripts/katex.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-extra_css: # 额外 CSS
+  #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+#extra_css: # 额外 CSS
   #- https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css # 访问统计转圈加载样式
   #- https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css # 自定义文本字体（霞鹜文楷）
   #- CSS/admonition.css
   #- CSS/other.css
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 plugins: # 插件
   - git-revision-date-localized: # 文章日期显示插件（pip install mkdocs-git-revision-date-localized-plugin）注意：build 时此插件加载非常缓慢！
