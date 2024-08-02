@@ -1,10 +1,10 @@
-site_name: ZJU_CSSU
+site_name: ZJUCSSU
 site_url: https://ZJUCSSU.github.io/home/
 repo_url: https://github.com/ZJUCSSU/home/
 repo_name: ZJUCSSU/home
-site_description: Welcome to ZJU_CSSU
-site_author: ZJU_CSSU
-copyright: Copyright &copy; 2024 ZJU_CSSU
+site_description: Welcome to ZJUCSSU
+site_author: ZJUCSSU
+copyright: Copyright &copy; 2024 ZJUCSSU
 
 markdown_extensions:
   # === 从这里开始到下面，是 pymdown-extensions 库的 markdown_extensions 配置 ===
@@ -108,7 +108,7 @@ theme: # 主题设置
   language: zh # material 语言
 
   features:
-    # - header.autohide # 顶栏自动隐藏
+    - header.autohide # 顶栏自动隐藏
     - content.tooltips # 提示框（以前有的样式变好看了，此外还支持更高级的提示框语法）
     - content.code.copy # 例如：``` python { .yaml .copy } 默认开启，{ .yaml .no-copy } 关闭
     - content.code.annotate # 允许内联代码注释
@@ -138,7 +138,7 @@ theme: # 主题设置
         name: 切换至明亮主题 # 提示词
     - media: "(prefers-color-scheme: light)" # 亮色主题
       scheme: default
-      # primary: grey # 标题栏颜色（建议自定义 CSS 调整，因为 footer 不会被此参数影响！）
+      #primary: blue # 标题栏颜色（建议自定义 CSS 调整，因为 footer 不会被此参数影响！）
       accent: purple # 链接高亮颜色
       toggle:
         icon: material/weather-sunny
@@ -146,13 +146,13 @@ theme: # 主题设置
     - media: "(prefers-color-scheme: dark)" # 暗色主题
       scheme: slate
       primary: black
-      # accent: yellow
+      accent: yellow
       toggle:
         icon: material/weather-night
         name: 切换至系统主题
   font: false # 避免从谷歌加载字体导致网页加载变慢
-  #logo: logo.png # 页面左上角徽标
-  #favicon: logo.png # 网页的图标
+  logo: logo.png # 页面左上角徽标
+  favicon: logo.png # 网页的图标
   icon: # 图标重载，替换掉默认的图标
     previous: fontawesome/solid/angle-left # 左下角向前翻页的图标
     next: fontawesome/solid/angle-right # 右下角向后翻页的图标
@@ -176,7 +176,6 @@ extra: # 额外设定
   #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 #extra_css: # 额外 CSS
   #- https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css # 访问统计转圈加载样式
-  #- https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css # 自定义文本字体（霞鹜文楷）
   #- CSS/admonition.css
   #- CSS/other.css
   #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
