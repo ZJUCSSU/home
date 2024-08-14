@@ -1,4 +1,4 @@
-# <img src="D:\college\CSSU\blog\home\docs\logo.png" alt="logo" style="zoom:67%;" /> 欢迎来到 ZJUCSSU 
+# <img src="D:\home\docs\logo.png" alt="logo" style="zoom:67%;" /> 欢迎来到 ZJUCSSU 
 
 
 
