@@ -1,4 +1,4 @@
-# <img src="D:\home\docs\logo.png" alt="logo" style="zoom:67%;" /> 欢迎来到 ZJUCSSU 
+# <img src="https://zjucssu.github.io/home/index.assets/logo.png" alt="logo" style="zoom:67%;" /> 欢迎来到 ZJUCSSU 
 
 
 
