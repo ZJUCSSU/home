@@ -13,7 +13,7 @@ const skipFiles = [
 
 // 自定义跳过文件夹列表（使用相对路径）
 const skipFolders = [
-    'Tools/Fufu_Tools/wiki',
+    'site',
 ];
 
 let foundPath = false; // 用于跟踪是否已经找到路径
