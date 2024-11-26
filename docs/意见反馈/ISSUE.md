@@ -2,19 +2,19 @@
 
 #### 一、点击网页右上角进入GITHUB仓库
 
-<img src="C:\Users\hao\Desktop\CSSU\home\docs\意见反馈\image-20240802185948381.png" alt="image-20240802185948381" style="zoom:50%;" />
+<img src="https://zjucssu.github.io/home/意见反馈/image-20240802185948381.png" alt="image-20240802185948381" style="zoom:50%;" />
 
 
 
 #### 二、点击进入ISSUE页面
 
-<img src="C:\Users\hao\Desktop\CSSU\home\docs\意见反馈\image-20240802190050801.png" alt="image-20240802190050801" style="zoom:50%;" />
+<img src="https://zjucssu.github.io/home/意见反馈/image-20240802190050801.png" alt="image-20240802190050801" style="zoom:50%;" />
 
 
 
 #### 三、选择New issue，在title栏以[意见]/[提问]/[吐槽]作为开头填入issue的主题，然后在下面填入具体内容（格式为markdown），直接发布即可
 
-<img src="C:\Users\hao\Desktop\CSSU\home\docs\意见反馈\image-20240802190429765.png" alt="image-20240802190429765" style="zoom:50%;" />
+<img src="https://zjucssu.github.io/home/意见反馈/image-20240802190429765.png" alt="image-20240802190429765" style="zoom:50%;" />
 
 
 
