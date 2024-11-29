@@ -170,15 +170,15 @@ extra: # 额外设定
       link: mailto:1744523875@qq.com
       name: 联系作者
 
-#extra_javascript: # 额外 JS
-  #- javascripts/katex.js
-  #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
-  #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-#extra_css: # 额外 CSS
-  #- https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css # 访问统计转圈加载样式
-  #- CSS/admonition.css
-  #- CSS/other.css
-  #- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+# extra_javascript: # 额外 JS
+#   - javascripts/katex.js
+#   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+#   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+# extra_css: # 额外 CSS
+#   - https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css # 访问统计转圈加载样式
+#   - CSS/admonition.css
+#   - CSS/other.css
+#   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 # plugins: # 插件
 #   - git-revision-date-localized: # 文章日期显示插件（pip install mkdocs-git-revision-date-localized-plugin）注意：build 时此插件加载非常缓慢！
@@ -230,6 +230,9 @@ nav:
     - 吐槽回应: 意见反馈/吐槽回应.md
     - 通知答疑: 意见反馈/通知答疑.md
   - 知识共享:
+    - 培养方案: 
+      - 计算机科学与技术: 知识共享/培养方案/CS/cs_site.md
+      - 软件工程: 知识共享/培养方案/软件工程/se_site.md
     - 课程学习: 知识共享/课程笔记/example.md
     - 课外学习: 知识共享/课外学习/example.md
   - 资源分享:
