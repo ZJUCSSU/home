@@ -92,7 +92,7 @@
 
 </details>
 
-### 创新创业类（22/23届）
+### 创新创业类（22/23级）
 
 <details>
 <summary>创新创业类</summary>
