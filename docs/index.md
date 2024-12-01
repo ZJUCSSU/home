@@ -1,7 +1,6 @@
 # <img src="https://zjucssu.github.io/home/index.assets/logo.png" alt="logo" style="zoom:67%;" /> 欢迎来到 ZJUCSSU 
 
 
-
 这是一个由浙江大学计算机科学与技术学院学生会为服务全体计算机学院同学所搭建的网页
 
 我们在这个网页中分设了四个分区：
