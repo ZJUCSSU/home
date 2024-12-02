@@ -43,6 +43,8 @@
 <details>
 <summary>必修课程</summary>
 <a><p style="font-size:16px;color:grey"> 英语水平测试</p></a>
+</details>
+
 <details>
 <summary>选修课程</summary>
 <a><p style="font-size:16px;color:grey"> 大学英语III</p></a>
@@ -85,7 +87,8 @@
 
 #### 通识选修课程
 
-<details><summary>通识选修课程</summary>
+<details>
+<summary>通识选修课程</summary>
 <a><p style="font-size:16px;color:grey"> 创业基础</p></a>
 <a><p style="font-size:16px;color:grey"> 通识核心课程</p></a>
 <a><p style="font-size:16px;color:grey"> 博雅技艺</p></a>
@@ -169,6 +172,7 @@
 <summary>必修课程</summary>
 <a><p style="font-size:16px;color:grey"> 课程综合实践II</p></a>
 <a><p style="font-size:16px;color:grey"> 工程实践</p></a>
+</details>
 
 
 
