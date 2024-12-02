@@ -180,8 +180,8 @@ extra: # 额外设定
 #   - CSS/other.css
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
-#plugins:
-#  - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
+plugins:
+  - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
 
 # plugins: # 插件
 #   - git-revision-date-localized: # 文章日期显示插件（pip install mkdocs-git-revision-date-localized-plugin）注意：build 时此插件加载非常缓慢！
