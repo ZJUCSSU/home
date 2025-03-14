@@ -181,7 +181,7 @@ extra: # 额外设定
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 plugins:
-  - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
+  # - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
 
 # plugins: # 插件
 #   - git-revision-date-localized: # 文章日期显示插件（pip install mkdocs-git-revision-date-localized-plugin）注意：build 时此插件加载非常缓慢！
@@ -254,4 +254,7 @@ nav:
       - 金杰鹏: 资源分享/个人笔记/金杰鹏/jjp.md
       - 史璐欣: 资源分享/个人笔记/史璐欣/slx.md
       - 钟睿昕: 资源分享/个人笔记/钟睿昕/zrx.md
+      - 陈逸航: 资源分享/个人笔记/陈逸航/cyh.md
+      - 何煦明: 资源分享/个人笔记/何煦明/hxm.md
+      - 赵佳乐: 资源分享/个人笔记/赵佳乐/cjl.md
     - 个人项目: 资源分享/个人项目/example.md
