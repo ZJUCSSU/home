@@ -2,6 +2,11 @@
 - [郑俊达的笔记](./assets/郑俊达-note.pdf)
 - [陈宇涵的笔记](./assets/陈宇涵-前端三件套学习文档.pdf)
 - [贺怀志的笔记](https://wintermelonc.github.io/WintermelonC_Docs/)
+- [夏子渊的笔记](./assets/夏子渊-Vim.pdf)
+
+
+
+
 这里是课外学习资料的分享区，我们收集了各种课外学习资源，包括在线课程、讲座、研讨会等，以帮助同学们拓宽知识视野。
 
 ## 在线课程推荐

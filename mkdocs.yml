@@ -8,7 +8,7 @@ copyright: Copyright &copy; 2024 ZJUCSSU
 
 markdown_extensions:
   # === 从这里开始到下面，是 pymdown-extensions 库的 markdown_extensions 配置 ===
- 
+
   - pymdownx.keys # 按键高亮，类似于行内代码那种，如 <kbd>Ctrl</kbd>，或者带图标的格式（强制小写）++ctrl++，也可组合 ++ctrl+s++（推荐第二种方式，第二种自带图标）
   - pymdownx.mark # 允许文本下划线，即 ^^Text^^
   - pymdownx.caret # 允许文本高亮，即 ==Text==
@@ -19,28 +19,28 @@ markdown_extensions:
   - pymdownx.smartsymbols # 允许上下标，如 x^2^（x²）
   - pymdownx.inlinehilite # 支持行内代码块高亮，如 `#!python range()`
   - pymdownx.smartsymbols # 智能符号，如 (c) 就是 ©️
- 
+
   - pymdownx.b64 # 允许使用 base64 编码嵌入本地 PNG、JPEG 和 GIF 图像引用（pymdownx 支持，mkdocs 暂时不支持）
   - pymdownx.escapeall # 允许使用反斜杠（pymdownx 支持，mkdocs 貌似部分支持，不完全支持）
   - pymdownx.magiclink # 自动识别超链接（pymdownx 支持，mkdocs 暂时不支持）
   - pymdownx.progressbar # 允许进度条语法（pymdownx 支持，mkdocs 暂时不支持）
   - pymdownx.saneheaders # “#title” 也是标题，虽然中间没有空格（pymdownx 支持，mkdocs 暂时不支持）
- 
+
   - pymdownx.blocks.tab # 支持更高级的标签块写法（危：可能与 pymdownx.tabbed 冲突）
   - pymdownx.blocks.html # 支持一些更高级的 md 内嵌 HTML 语法（pymdownx.blocks 默认开启）
   - pymdownx.blocks.details # 支持更高级的提示框布局（危：可能与 pymdownx.details 冲突）
   - pymdownx.blocks.admonition # 支持更高级提示框语法（危：可能与 admonition 冲突）
   - pymdownx.blocks.definition # 支持更高级的定义块语法（危：可能与 def_list）
- 
+
   - pymdownx.arithmatex: # 允许数学表达式，即 $$y=x+1$$，或行内的 $x=1$
       generic: true
- 
+
   - pymdownx.betterem: # 允许斜体和加粗
       smart_enable: all
- 
+
   - pymdownx.critic: # 允许批注，批注详情见 https://mkdoc-material.llango.com/reference/formatting/
       mode: view # 批注模式，可为 view，accept 和 reject，不懂干啥的
- 
+
   - pymdownx.highlight: # 允许代码块语法高亮
       use_pygments: true # 使用 pygments 而不是 javascript，啥意思不懂
       linenums: true # 全部显示行号，若为 false，也可指定起始行号，如 ```python linenums="2"，也可指定高亮行，如 hl_lines="2-3"
@@ -49,32 +49,32 @@ markdown_extensions:
       line_spans: __span # 这对于行突出显示等功能正常工作至关重要，不懂
       pygments_lang_class: true # 对于自定义注释标记的功能至关重要，不懂
       # auto_title: true # 自动为所有代码块添加一个标题
- 
+
   - pymdownx.emoji: # 允许 Emoji 表情
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
- 
+
   - pymdownx.superfences: # 允许各种嵌套
       custom_fences:
         - name: mermaid # 允许 mermaid 图表语法
           class: mermaid
           format:
             !!python/name:pymdownx.superfences.fence_code_format # 不清楚干啥的
- 
- 
+
+
   - pymdownx.tabbed: # 允许块（如代码块）添加标签，实现多语言等效果
       alternate_style: true # 唯一支持的样式，不打开等于用不了
       combine_header_slug: true # 后面的不知道干啥的
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
- 
+
   - pymdownx.tasklist: # 允许 Todo 列表清单
       custom_checkbox: true # 允许修改其样式，不然用默认样式就很丑
       clickable_checkbox: true # 是否可通过点击切换状态（但无实际更改，只有视觉效果）
- 
+
   # === 从这里开始到下面，是 Python-Markdown（MkDocs 默认的） 的 markdown_extensions 配置 ===
- 
+
   - meta # 允许元标记，页面源代码顶上那几行被横线保住的内容就是元标记，为了支持某些功能使用
   - abbr # 允许文本悬浮提示，就是 ToolTip，例如：*[Text]: 啊吧啊吧
   - tables # 允许用简单语法创建表格
@@ -88,11 +88,11 @@ markdown_extensions:
   # - nl2br # 换行符硬断裂，即文本不像旧版 md 那样，可以直接换行
   # - codehilite # 被 pymdownx 相关扩展取代了，不建议使用这个
   # - fenced_code # 被 pymdownx 相关扩展取代了，不建议使用这个
- 
+
   - footnotes: # 允许脚注
       BACKLINK_TITLE: 返回脚注 {} # 底部脚注的提示词，建议改一下，默认是英文的
       # SUPERSCRIPT_TEXT: {} # 脚注名称，默认就是 {}，表示标号
- 
+
   - toc: # 目录设置
       title: 目录 # 在右侧导航侧边栏中设置目录的标题
       permalink_title: 点击定位到锚点 # 设置锚点链接的提示词
@@ -221,40 +221,44 @@ plugins:
 #         remove_comments: true
 #       cache_safe: true
 
-
-nav: 
+nav:
   - 主页: index.md
   - 每日通知:
-    - 学院重要通知: 学院通知/学院重要通知.md
-    - 学生会活动通知: 学院通知/学生会活动.md
-    - 今日十大: 学院通知/今日十大.md 
+      - 学院重要通知: 学院通知/学院重要通知.md
+      - 学生会活动通知: 学院通知/学生会活动.md
+      - 今日十大: 学院通知/今日十大.md
   - 意见反馈:
-    - 如何提交ISSUE: 意见反馈/ISSUE.md
-    - 吐槽回应: 意见反馈/吐槽回应.md
-    - 通知答疑: 意见反馈/通知答疑.md
+      - 如何提交ISSUE: 意见反馈/ISSUE.md
+      - 吐槽回应: 意见反馈/吐槽回应.md
+      - 通知答疑: 意见反馈/通知答疑.md
   - 知识共享:
-    - 培养方案:
-      - 计算机科学与技术: 知识共享/培养方案/CS/cs_site.md
-      - 软件工程: 知识共享/培养方案/软件工程/se_site.md
-      - 信息安全: 知识共享/培养方案/信息安全/is_site.md
-      - 工业设计: 知识共享/培养方案/工业设计/id_site.md
-      - 人工智能: 知识共享/培养方案/人工智能/ai.md
-      - 通识课程: 知识共享/培养方案/general/general_courses.md
-      - 跨专业课程: 知识共享/培养方案/general/cross_majors.md
-    - 课程学习: 知识共享/课程笔记/example.md
-    - 课外学习: 知识共享/课外学习/example.md
+      - 培养方案:
+          - 计算机科学与技术: 知识共享/培养方案/CS/cs_site.md
+          - 软件工程: 知识共享/培养方案/软件工程/se_site.md
+          - 信息安全: 知识共享/培养方案/信息安全/is_site.md
+          - 工业设计: 知识共享/培养方案/工业设计/id_site.md
+          - 人工智能: 知识共享/培养方案/人工智能/ai.md
+          - 通识课程: 知识共享/培养方案/general/general_courses.md
+          - 跨专业课程: 知识共享/培养方案/general/cross_majors.md
+      - 课程学习: 知识共享/课程笔记/example.md
+      - 课外学习: 知识共享/课外学习/example.md
   - 资源分享:
-    - 个人笔记:
-      - 笔记说明: 资源分享/个人笔记/example.md
-      - 朱镐哲: 资源分享/个人笔记/朱镐哲/zgz.md
-      - 周小童: 资源分享/个人笔记/周小童/zxt.md
-      - 庞瑛霏: 资源分享/个人笔记/庞瑛霏/pyf.md
-      - 姜凌麒: 资源分享/个人笔记/姜凌麒/jlq.md
-      - 吴浩: 资源分享/个人笔记/吴浩/wh.md
-      - 金杰鹏: 资源分享/个人笔记/金杰鹏/jjp.md
-      - 史璐欣: 资源分享/个人笔记/史璐欣/slx.md
-      - 钟睿昕: 资源分享/个人笔记/钟睿昕/zrx.md
-      - 陈逸航: 资源分享/个人笔记/陈逸航/cyh.md
-      - 何煦明: 资源分享/个人笔记/何煦明/hxm.md
-      - 赵佳乐: 资源分享/个人笔记/赵佳乐/zjl.md
-    - 个人项目: 资源分享/个人项目/example.md
+      - 个人笔记:
+          - 笔记说明: 资源分享/个人笔记/example.md
+          - 朱镐哲: 资源分享/个人笔记/朱镐哲/zgz.md
+          - 周小童: 资源分享/个人笔记/周小童/zxt.md
+          - 庞瑛霏: 资源分享/个人笔记/庞瑛霏/pyf.md
+          - 姜凌麒: 资源分享/个人笔记/姜凌麒/jlq.md
+          - 吴浩: 资源分享/个人笔记/吴浩/wh.md
+          - 金杰鹏: 资源分享/个人笔记/金杰鹏/jjp.md
+          - 史璐欣: 资源分享/个人笔记/史璐欣/slx.md
+          - 钟睿昕: 资源分享/个人笔记/钟睿昕/zrx.md
+          - 陈逸航: 资源分享/个人笔记/陈逸航/cyh.md
+          - 何煦明: 资源分享/个人笔记/何煦明/hxm.md
+          - 赵佳乐: 资源分享/个人笔记/赵佳乐/zjl.md
+          - 吴与伦: 资源分享/个人笔记/吴与伦/wyl.md
+          - 金祺书: 资源分享/个人笔记/金祺书/jqs.md
+          - 夏子渊: 资源分享/个人笔记/夏子渊/xzy.md
+          - 高玮轩: 资源分享/个人笔记/高玮轩/gwx.md
+
+      - 个人项目: 资源分享/个人项目/example.md
