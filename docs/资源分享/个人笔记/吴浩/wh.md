@@ -2,7 +2,7 @@
 
 ## 笔记网站
 
-- [吴浩笔记]https://freewh2005.github.io/index.html
+- [吴浩笔记](https://freewh2005.github.io/index.html)
 
 ## 内容概览
 

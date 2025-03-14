@@ -2,7 +2,7 @@
 
 ## 笔记网站
 
-- [史璐欣笔记]https://collapsar11.github.io/
+- [史璐欣笔记](https://collapsar11.github.io/)
 
 ## 内容概览
 
