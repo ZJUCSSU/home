@@ -183,7 +183,7 @@ extra_css: # 额外 CSS
 
 plugins:
   - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
-
+  - macros # 本地pip install mkdocs-macros-plugin 安装插件
 # plugins: # 插件
 #   - git-revision-date-localized: # 文章日期显示插件（pip install mkdocs-git-revision-date-localized-plugin）注意：build 时此插件加载非常缓慢！
 #       enable_creation_date: true # 显示创建的日期
