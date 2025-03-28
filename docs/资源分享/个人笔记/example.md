@@ -26,25 +26,28 @@
 | 链接 | 描述 |
 | :----------- | :----------- |
 | [陈逸航](https://sh17c.top/LessonsNotes/) |  |
-| [邓江波](./邓江波-Distributed%20Version%20Control%20System%20-%20Git.pdf) | pdf |
+| [邓江波](./assets/邓江波-Distributed%20Version%20Control%20System%20-%20Git.pdf) | pdf |
 | [高玮轩](https://nest.shrike505.cc/notes/) |  |
 | [何煦明](https://dw7hzckbift.feishu.cn/wiki/VulewoHS1i3EWlkx8SbcCl0znRe) | 机器学习，深度学习 |
-| [姜凌麒](姜凌麒-计网笔记(展示).pdf) | 计算机网络 |
+| [姜凌麒](./assets/姜凌麒-计网笔记(展示).pdf) | 计算机网络 |
 | [金杰鹏](https://note.jiepeng.tech/) |  |
 | [金祺书](https://brucejqs.github.io/MyNotebook/) |  |
 | [刘仁钦](https://cyrus28214.top/post/0281cead953c/) |  |
-| [庞瑛霏](庞瑛霏-数据结构.pdf) | 数据结构，pdf |
-| [任飞扬](任飞扬-SpringBoot开发.pdf) | SpringBoot开发，pdf |
+| [庞瑛霏](./assets/庞瑛霏-数据结构.pdf) | 数据结构，pdf |
+| [任飞扬](./assets/任飞扬-SpringBoot开发.pdf) | SpringBoot开发，pdf |
 | [史璐欣](https://collapsar11.github.io/) |  |
 | [王普](https://note.v1ceversaa.cc/) |  |
 | [吴浩](https://freewh2005.github.io/index.html) |  |
 | [吴与伦](https://mem.ac/) |  |
-| [夏子渊](夏子渊-Vim.pdf) | Vim，pdf |
-| [杨星宇](./杨星宇-_Fundamentals%20of%20CUDA%20C_C++.pdf) | pdf |
-| [张高畅](张高畅-Git笔记.pdf) | git，pdf |
+| [夏子渊](./assets/夏子渊-Vim.pdf) | Vim，pdf |
+| [杨星宇](./assets/杨星宇-_Fundamentals%20of%20CUDA%20C_C++.pdf) | pdf |
+| [张高畅](./assets/张高畅-Git笔记.pdf) | git，pdf |
 | [赵佳乐](https://nonezjl.github.io/mymkdocs/Tools/elasticsearch/#_5) |  |
-| [赵柳烨](赵柳烨-note.pdf) | pdf |
+| [赵柳烨](./assets/赵柳烨-note.pdf) | pdf |
 | [赵育课](https://hzeroyuke.github.io/my_blog/) |  |
 | [钟睿昕](https://vwd2qst55o9.feishu.cn/docx/MRdjd0SERo0hs1xUcZMc93p1n6d) | JS |
-| [周小童](周小童-Vim操作整理.pdf) | Vim，pdf |
-| [朱镐哲](https://www.yuque.com/howjul/rt9ms6)/[朱镐哲](https://note.howjul.com/) |  |
+| [周小童](./assets/周小童-Vim操作整理.pdf) | Vim，pdf |
+| [朱镐哲](https://www.yuque.com/howjul/rt9ms6)/[朱镐哲](https://note.howjul.com/) |个人笔记|
+| [林然](./assets/林然-os-note.pdf) | os |
+|||
+|||
