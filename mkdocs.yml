@@ -119,7 +119,7 @@ theme: # 主题设置
     - navigation.tabs # 页面顶部导航栏
     - navigation.footer # 页面底下换页的支持
     - navigation.indexes # 左侧边栏大节点是否可以被导向到 index.md
-    - navigation.instant # 页面不会重复加载（已加载页面不会再次加载）
+    # - navigation.instant # 页面不会重复加载（已加载页面不会再次加载）
     - navigation.instant.progress # 加载速度慢时，在页面顶部显示加载进度（400ms 以上加载时间才会显示它）
     # - navigation.tabs.sticky # 导航栏标题栏位置固定
     # - navigation.sections # 左侧边栏节点是否保持展开
