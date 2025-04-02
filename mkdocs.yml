@@ -176,6 +176,7 @@ extra_javascript: # 额外 JS
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 extra_css: # 额外 CSS
   - stylesheets/extra.css
+  - stylesheets/table.css
 #   - https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css # 访问统计转圈加载样式
 #   - CSS/admonition.css
 #   - CSS/other.css
