@@ -7,7 +7,6 @@ deadlineEls.forEach((deadlineEl, index) => {
     // 解析截止日期（设为当天23:59:59）
     const deadlineDate = new Date(deadlineEl.dataset.deadline + 'T23:59:59');
     const currentDate = new Date();
-
     // 格式化为 "YYYY年MM月DD日" 并添加前缀
     const [year, month, day] = deadlineDate
         .toLocaleDateString('zh-CN', {
