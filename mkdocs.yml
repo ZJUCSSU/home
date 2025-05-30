@@ -172,6 +172,7 @@ extra: # 额外设定
 
 extra_javascript: # 额外 JS
   - javascripts/extra.js
+  - js/pop.js
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 extra_css: # 额外 CSS
@@ -229,6 +230,7 @@ nav:
       - 学院重要通知: 学院通知/学院重要通知.md
       - 学生会活动通知: 学院通知/学生会活动.md
       - 今日十大: 学院通知/今日十大.md
+      - 实习信息: 学院通知/实习信息.md
   - 意见反馈:
       - 如何提交ISSUE: 意见反馈/ISSUE.md
       - 吐槽回应: 意见反馈/吐槽回应.md
