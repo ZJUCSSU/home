@@ -1,6 +1,7 @@
 # 人工智能
 
 > [!note] 培养方案
+> - [2025级人工智能培养方案](25级人工智能培养方案.pdf)
 > - [2024级人工智能培养方案](24级人工智能培养方案.pdf)
 
 >
@@ -25,6 +26,12 @@
 <a><p style="font-size:16px;color:grey">习近平新时代中国特色社会主义思想概论</p ></a >
 
 <a><p style="font-size:16px;color:grey">形势与政策II</p ></a >
+
+<a><p style="font-size:16px;color:grey">军训</p ></a >
+
+<a><p style="font-size:16px;color:grey">军事理论</p ></a >
+
+<a><p style="font-size:16px;color:grey">体测与锻炼Ⅰ</p ></a >
 
 
 </details>
@@ -188,7 +195,7 @@
 
 <a><p style="font-size:16px;color:grey">大模型基础</p ></a >
 
-<a><p style="font-size:16px;color:grey">理论计算机科学引导</p ></a >
+<a><p style="font-size:16px;color:grey">理论计算机科学导引</p ></a >
 
 <a><p style="font-size:16px;color:grey">算法设计与分析</p ></a >
 
