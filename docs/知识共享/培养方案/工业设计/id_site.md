@@ -42,7 +42,7 @@
 | 计算机图形学      | :heavy_check_mark:   | :x:   | :x:   | :heavy_check_mark:   |
 | 感知、通信与控制    | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
 | 创新设计历史与未来   | :x:   | :x:   | :heavy_check_mark:   | :heavy_check_mark:   |
-| 信息与交互设计技术   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 信息与交互设计技术   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
 | 商业创新设计      | :heavy_check_mark:   | :heavy_check_mark:   | :x:   | :x:   |
 | 文化构成与创新设计   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
 | 用户体验与产品创新设计 | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
