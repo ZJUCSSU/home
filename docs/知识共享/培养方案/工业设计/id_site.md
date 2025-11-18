@@ -19,36 +19,36 @@
 
 ### 专业基础课程
 
-| 课程名称    | 22级 | 23级 | 24级 |
-| :-------: | :---: | :---: | :---: |
-| 工程图学    | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
-| 数据结构基础  | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
-| 设计思维与表达 | :heavy_check_mark:   | :heavy_check_mark:   | :x:   |
-| 设计基础    | :heavy_check_mark:   | :heavy_check_mark:   | :x:   |
+| 课程名称    | 22级 | 23级 | 24级 | 25级 |
+| :-------: | :---: | :---: | :---: | :---: |
+| 工程图学    | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 数据结构基础  | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 设计思维与表达 | :heavy_check_mark:   | :heavy_check_mark:   | :x:   | :heavy_check_mark:   |
+| 设计基础    | :heavy_check_mark:   | :heavy_check_mark:   | :x:   | :x:   |
 
 ### 专业必修课程
 
-| 课程名称        | 22级 | 23级 | 24级 |
-| :-----------: | :---: | :---: | :---: |
-| 造型基础        | :heavy_check_mark:   | :x:   | :x:   |
-| 实体、结构与制造    | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
-| 设计史         | :heavy_check_mark:   | :heavy_check_mark:   | :x:   |
-| 面向对象程序设计    | :heavy_check_mark:   | :heavy_check_mark:   | :x:   |
-| 设计思维与表达     | :x:   | :x:   | :heavy_check_mark:   |
-| 智能设计基础      | :x:   | :x:   | :heavy_check_mark:   |
-| 设计与艺术基础     | :x:   | :x:   | :heavy_check_mark:   |
-| 产品形式与方式设计   | :heavy_check_mark:   | :heavy_check_mark:   | :x:   |
-| 设计心理学       | :x:   | :x:   | :heavy_check_mark:   |
-| 计算机图形学      | :heavy_check_mark:   | :x:   | :x:   |
-| 感知、通信与控制    | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
-| 创新设计历史与未来   | :x:   | :x:   | :heavy_check_mark:   |
+| 课程名称        | 22级 | 23级 | 24级 | 25级 |
+| :-----------: | :---: | :---: | :---: | :---: |
+| 造型基础        | :heavy_check_mark:   | :x:   | :x:   | :x:   |
+| 实体、结构与制造    | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 设计史         | :heavy_check_mark:   | :heavy_check_mark:   | :x:   | :x:   |
+| 面向对象程序设计    | :heavy_check_mark:   | :heavy_check_mark:   | :x:   | :x:   |
+| 设计思维与表达     | :x:   | :x:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 智能设计基础      | :x:   | :x:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 设计与艺术基础     | :x:   | :x:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 产品形式与方式设计   | :heavy_check_mark:   | :heavy_check_mark:   | :x:   | :heavy_check_mark:   |
+| 设计心理学       | :x:   | :x:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 计算机图形学      | :heavy_check_mark:   | :x:   | :x:   | :heavy_check_mark:   |
+| 感知、通信与控制    | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 创新设计历史与未来   | :x:   | :x:   | :heavy_check_mark:   | :heavy_check_mark:   |
 | 信息与交互设计技术   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
-| 商业创新设计      | :heavy_check_mark:   | :heavy_check_mark:   | :x:   |
-| 文化构成与创新设计   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
-| 用户体验与产品创新设计 | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
-| 跨媒体数据可视化    | :heavy_check_mark:   | :x:   | :x:   |
-| 信息产品设计      | :heavy_check_mark:   | :heavy_check_mark:   | :x:   |
-| 智能产品设计      | :x:   | :x:   | :heavy_check_mark:   |
+| 商业创新设计      | :heavy_check_mark:   | :heavy_check_mark:   | :x:   | :x:   |
+| 文化构成与创新设计   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 用户体验与产品创新设计 | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   |
+| 跨媒体数据可视化    | :heavy_check_mark:   | :x:   | :x:   | :x:   |
+| 信息产品设计      | :heavy_check_mark:   | :heavy_check_mark:   | :x:   | :x:   |
+| 智能产品设计      | :x:   | :x:   | :heavy_check_mark:   | :heavy_check_mark:   |
 
 ### 专业选修课程
 
@@ -56,7 +56,7 @@
 
 ## 个性修读课程
 
-### 本专业进阶模块（24级）
+### 本专业进阶模块（25级）
 
 - 设计大数据基础
 - 计算机游戏程序设计
