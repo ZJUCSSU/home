@@ -1,10 +1,12 @@
 # 人工智能
 
-> [!note] 培养方案
-> - [2024级人工智能培养方案](24级人工智能培养方案.pdf)
+!!! note "培养方案"
 
->
-> *最后更新于 2024/12/7，如有需要请访问[本科教学管理信息服务平台](http://zdbk.zju.edu.cn)获取最新版本*
+    [2025级人工智能培养方案](25级人工智能培养方案.pdf)
+
+    [2024级人工智能培养方案](24级人工智能培养方案.pdf)
+
+*最后更新于 2025/11/18，如有需要请访问[本科教学管理信息服务平台](http://zdbk.zju.edu.cn)获取最新版本*
 ## 通识课程
 
 ### 思政类/军体类
@@ -25,6 +27,12 @@
 <a><p style="font-size:16px;color:grey">习近平新时代中国特色社会主义思想概论</p ></a >
 
 <a><p style="font-size:16px;color:grey">形势与政策II</p ></a >
+
+<a><p style="font-size:16px;color:grey">军训</p ></a >
+
+<a><p style="font-size:16px;color:grey">军事理论</p ></a >
+
+<a><p style="font-size:16px;color:grey">体测与锻炼Ⅰ</p ></a >
 
 
 </details>
@@ -188,7 +196,7 @@
 
 <a><p style="font-size:16px;color:grey">大模型基础</p ></a >
 
-<a><p style="font-size:16px;color:grey">理论计算机科学引导</p ></a >
+<a><p style="font-size:16px;color:grey">理论计算机科学导引</p ></a >
 
 <a><p style="font-size:16px;color:grey">算法设计与分析</p ></a >
 

@@ -185,7 +185,7 @@ extra_css: # 额外 CSS
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 plugins:
-  - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
+#  - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
   - macros # 本地pip install mkdocs-macros-plugin 安装插件
   - search:
       separator: '[\s\u200b\-]' # 支持中文搜素
