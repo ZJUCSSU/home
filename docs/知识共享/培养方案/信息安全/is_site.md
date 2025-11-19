@@ -3,11 +3,12 @@
 # 信息安全
 
 > [!note] 培养方案
+> - [2025级信息安全专业培养方案](2025级信息安全专业培养方案.pdf)
 > - [2024级信息安全专业培养方案](2024级信息安全专业培养方案.pdf)
 > - [2023级信息安全专业培养方案](2023级信息安全专业培养方案.pdf)
 > - [2022级信息安全专业培养方案](2022级信息安全专业培养方案.pdf)
 > 
-> *最后更新于 2024/12/02，如有需要请访问[本科教学管理信息服务平台](http://zdbk.zju.edu.cn)获取最新版本*
+> *最后更新于 2025/11/18，如有需要请访问[本科教学管理信息服务平台](http://zdbk.zju.edu.cn)获取最新版本*
 
 ## 课程安排
 
@@ -110,7 +111,6 @@
 <summary>专业基础课程</summary>
 <a><p style="font-size:16px;color:grey"> 数据结构基础</p></a>
 <a><p style="font-size:16px;color:grey"> 面向对象程序设计</p></a>
-<a><p style="font-size:16px;color:grey"> 数据结构基础</p></a>
 </details>
 
 
@@ -129,7 +129,6 @@
 <a><p style="font-size:16px;color:grey"> 计算机网络</p></a>
 <a><p style="font-size:16px;color:grey"> 软件安全原理和实践</p></a>
 <a><p style="font-size:16px;color:grey"> 网络安全原理与实践</p></a>
-<a><p style="font-size:16px;color:grey"> 编译原理</p></a>
 <a><p style="font-size:16px;color:grey"> 系统安全原理和实践</p></a>
 <a><p style="font-size:16px;color:grey"> 无线与物联网安全基础</p></a>
 </details>
@@ -138,25 +137,23 @@
 
 <details>
 <summary>专业选修课程</summary>
-<a><p style="font-size:16px;color:grey"> 汇编语言</p></a>
+<a><p style="font-size:16px;color:grey"> 汇编语言程序设计与调试(22,23,24级为汇编语言)</p></a>
 <a><p style="font-size:16px;color:grey"> 数据库系统</p></a>
 <a><p style="font-size:16px;color:grey"> 面向信息安全的信号处理</p></a>
-<a><p style="font-size:16px;color:grey"> 密码学进阶</p></a>
-<a><p style="font-size:16px;color:grey"> 人工智能伦理与安全</p></a>
-<a><p style="font-size:16px;color:grey"> 人工智能安全</p></a>
-<a><p style="font-size:16px;color:grey"> 硬件安全基础</p></a>
+<a><p style="font-size:16px;color:grey"> 网络空间安全导论(25级)</p></a>
+<a><p style="font-size:16px;color:grey"> 人工智能伦理与安全(22,23级)</p></a>
+<a><p style="font-size:16px;color:grey"> 人工智能安全(22,23级 24,25级并入个性修读课程)</p></a>
+<a><p style="font-size:16px;color:grey"> 硬件安全基础(22,23级 24,25级并入个性修读课程)</p></a>
 <a><p style="font-size:16px;color:grey"> 多媒体安全</p></a>
-<a><p style="font-size:16px;color:grey"> 软件保护技术</p></a>
-<a><p style="font-size:16px;color:grey"> 技术沟通</p></a>
-<a><p style="font-size:16px;color:grey"> 计算机动画</p></a>
+<a><p style="font-size:16px;color:grey"> 软件保护技术(22,23级 24,25级并入个性修读课程)</p></a>
+<a><p style="font-size:16px;color:grey"> 技术沟通(22,23级)</p></a>
+<a><p style="font-size:16px;color:grey"> 计算机动画(22,23级)</p></a>
 <a><p style="font-size:16px;color:grey"> 计算理论</p></a>
 <a><p style="font-size:16px;color:grey"> 专题研讨</p></a>
-<a><p style="font-size:16px;color:grey"> 编程语言原理</p></a>
 <a><p style="font-size:16px;color:grey"> 量子计算理论基础与软件系统 </p></a>
 <a><p style="font-size:16px;color:grey"> 区块链安全与数字货币原理</p></a>
 <a><p style="font-size:16px;color:grey"> 职业发展规划讲座</p></a>
 <a><p style="font-size:16px;color:grey"> 计算机科学思想史</p></a>
-<a><p style="font-size:16px;color:grey"> 深度合成技术与电子取证</p></a>
 <a><p style="font-size:16px;color:grey"> 社交网络安全与隐私</p></a>
 <a><p style="font-size:16px;color:grey"> 科研实践I</p></a>
 <a><p style="font-size:16px;color:grey"> 科研实践II </p></a>
@@ -165,26 +162,24 @@
 
 
 
-
-#### 实践教学环节
-
 <details>
-<summary>必修课程</summary>
-<a><p style="font-size:16px;color:grey"> 课程综合实践II</p></a>
-<a><p style="font-size:16px;color:grey"> 工程实践</p></a>
-</details>
-
-
-
-<details>
-<summary>选修课程</summary>
-<a><p style="font-size:16px;color:grey"> 计算机系统概论</p></a>
-<a><p style="font-size:16px;color:grey"> 课程综合实践I</p></a>
+<summary>实践教学环节</summary>
+<a><p style="font-size:16px;color:grey"> 信息安全课程综合实践</p></a>
+<a><p style="font-size:16px;color:grey"> 信息安全产业实践</p></a>
+<a><p style="font-size:16px;color:grey"> 信息安全科研实践</p></a>
 </details>
 
 
 
 ### 个性修读课程
 
-
-
+<details>
+<summary>个性修读课程</summary>
+<a><p style="font-size:16px;color:grey"> 软件保护技术</p></a>
+<a><p style="font-size:16px;color:grey"> 硬件安全基础</p></a>
+<a><p style="font-size:16px;color:grey"> 编程语言原理</p></a>
+<a><p style="font-size:16px;color:grey"> 密码学进阶</p></a>
+<a><p style="font-size:16px;color:grey"> 编译原理</p></a>
+<a><p style="font-size:16px;color:grey"> 人工智能安全</p></a>
+<a><p style="font-size:16px;color:grey"> 深度合成技术与电子取证</p></a>
+</details>
