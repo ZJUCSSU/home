@@ -14,10 +14,11 @@ cards:
     tags: [2025, 通知, 本科生, 暑期项目, 心理健康]
 ---
 
->[!NOTE]
-> 标题左侧的点暗了就代表通知已经截止了哦~
->
-> 如果进入后显示“404 - Not Found”，说明对应通知无链接~
+!!! note 通知
+    标题左侧的点暗了就代表通知已经截止了哦~
+
+    如果进入后显示“404 - Not Found”，说明对应通知无链接~
+    
 {% for item in cards|sort(attribute='ddl', reverse=True)%}
 <style>
 .card {
