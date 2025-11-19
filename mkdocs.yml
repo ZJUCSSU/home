@@ -76,7 +76,6 @@ markdown_extensions:
   # === 从这里开始到下面，是 Python-Markdown（MkDocs 默认的） 的 markdown_extensions 配置 ===
 
   - meta # 允许元标记，页面源代码顶上那几行被横线保住的内容就是元标记，为了支持某些功能使用
-  - material.content.tags # 允许标签
   - abbr # 允许文本悬浮提示，就是 ToolTip，例如：*[Text]: 啊吧啊吧
   - tables # 允许用简单语法创建表格
   - smarty # 貌似是为了提高兼容性的，不太清楚
@@ -176,9 +175,9 @@ extra_javascript: # 额外 JS
   - javascripts/extra.js
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-extra_css: # 额外 CSS
-  - stylesheets/extra.css
-  - stylesheets/table.css
+# extra_css: # 额外 CSS
+#   - stylesheets/extra.css
+#   - stylesheets/table.css
 #   - https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css # 访问统计转圈加载样式
 #   - CSS/admonition.css
 #   - CSS/other.css
@@ -187,6 +186,7 @@ extra_css: # 额外 CSS
 plugins:
 #  - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
   - macros # 本地pip install mkdocs-macros-plugin 安装插件
+  - tags
   - search:
       separator: '[\s\u200b\-]' # 支持中文搜素
 # plugins: # 插件
