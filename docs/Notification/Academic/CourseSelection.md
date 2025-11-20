@@ -1,36 +1,23 @@
 ---
+tags:
+  - 2025
+  - 选课
+  - 紧急
+  - 公告
+
 cards:
-  - ddl: 2025-05-19
-    title: “朋辈心理辅导之星”评选工作
-    detail: 关于开展2025年“朋辈心理辅导之星”评选工作的通知
-    href:  http://cspo.zju.edu.cn/2025/0508/c27175a3047230/page.htm
-  - ddl: 2025-05-20
-    title: “2025年心理助人工作学生生涯发展增能计划”
-    detail: 关于选拔优秀本科生赴香港参加“2025年心理助人工作学生生涯发展增能计划”的通知
-    href:  http://www.xgb.zju.edu.cn/2025/0508/c53018a3046995/page.psp
-    href:  https://form.zju.edu.cn/#/dform/genericForm/99XulU9A
-  - ddl: 2025-05-23
-    title: 青山海外交流基金项目
-    detail: 计算机学院关于2025年浙江大学青山海外交流基金项目申请的通知
-    href:  http://cspo.zju.edu.cn/2025/0509/c27183a3047559/page.htm
   - ddl: 2025-05-25
     title: 2025-2026学年秋冬学期本科课程选课（包括暑假短学期课程）第一轮
     detail: 开始时间：5月23日9：00-5月25日24：00
     href:  https://bksy.zju.edu.cn/2025/0519/c28418a3052207/page.htm
-  - ddl: 2025-05-27
-    title: “计路同行”暑假企业实习实践活动
-    detail: 即日起至2025年5月27日23:59开始报名
-    href:  http://cspo.zju.edu.cn/2025/0514/c27181a3049263/page.htm
-  - ddl: 2025-05-22
-    title: 文军新长征，重跑“西迁路”
-    detail: 下载“浙大体艺”APP，登录后在首页模块中进入“我的比赛”进行报名，报名截止时间为【5月22日】
-    href:  https://tyys.zju.edu.cn/redir.php?catalog_id=191753&object_id=215433
+    tags: [2025, 公告, 选课, 紧急]
 ---
 
->[!NOTE]
-> 标题左侧的点暗了就代表通知已经截止了哦~
->
-> 如果进入后显示“404 - Not Found”，说明对应通知无链接~
+!!! note 通知
+    标题左侧的点暗了就代表通知已经截止了哦~
+
+    如果进入后显示“404 - Not Found”，说明对应通知无链接~
+
 {% for item in cards|sort(attribute='ddl', reverse=True)%}
 <style>
 .card {
@@ -97,6 +84,45 @@ cards:
   line-height: 1.5;
 }
 
+/* 标签容器样式 */
+.card .tags-container {
+  display: flex;
+  flex-wrap: wrap; /* 允许标签换行 */
+  gap: 6px; /* 标签间的间距 */
+  margin-top: 8px; /* 与上方的 detail 留出间距 */
+}
+
+/* 单个标签样式 */
+.card .tag {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #555;
+  background-color: #c5c0c0ff; /* 默认浅灰色背景 */
+  border: 1px solid #ddd;
+}
+
+/* 添加特殊标签的颜色 */
+.card .tag.紧急 {
+  background-color: #ffcccc; /* 红色系背景 */
+  border-color: #ff0000;
+  color: #cc0000;
+  font-weight: bold;
+}
+
+.card .tag.重要 {
+  background-color: #e0f7fa; /* 浅青蓝色背景 */
+  border-color: #00bcd4; /* 青蓝色边框 */
+  color: #006064; /* 深青蓝色文字 */
+  font-weight: bold;
+}
+
+.card .tag.长期有效 {
+  background-color: #e8f5e9; /* 浅绿色背景 */
+  border-color: #4caf50; /* 绿色边框 */
+  color: #1b5e20; /* 深绿色文字 */
+}
+
 /* 右侧箭头定位 */
 .card .details {
   position: absolute;
@@ -109,7 +135,7 @@ cards:
   width: 24px;
   height: 24px;
 }
-</style>
+<!-- </style>
 <div class='card'>
     <div class="dot"></div>
     <div class="snapshot">
@@ -118,6 +144,14 @@ cards:
         <div class="detail">
             <text>{{ item.detail }}</text>
         </div>
+        {% if item.tags %}
+        <div class="tags-container">
+            {% for tag in item.tags %}
+                <span class="tag {{ tag }}">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+        </div>
     </div>
     <a href="{{ item.href }}">
         <div class="details">
@@ -125,5 +159,5 @@ cards:
         </div>
     </a>
 </div>
-{% endfor %}
+{% endfor %} -->
 

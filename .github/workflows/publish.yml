@@ -1,0 +1,56 @@
+name: Publish to GitHub Pages
+
+# 触发条件：监听 main 分支的 push 动作
+on:
+  push:
+    branches:
+      - main
+
+# 权限设置：允许 Action 写入代码（为了推送到 gh-pages 分支）
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 拉取代码
+      - uses: actions/checkout@v4
+        
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22"
+
+      # 2. 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      # 3. 安装依赖
+      # 会读取你根目录下的 requirements.txt
+      # 如果你的 requirements.txt 里没有 mkdocs，这里会自动补装
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs
+          pip install mkdocs-statistics-plugin
+          pip install mkdocs-material
+          pip install mkdocs-rss-plugin
+          pip install mkdocs-glightbox
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-changelog-plugin
+          pip install pymdown-extensions
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # 4. 配置 Git 用户信息 (mkdocs gh-deploy 需要知道是谁在提交)
+      - name: Configure Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 5. 构建并部署
+      # 这步命令会自动编译 docs 目录，并推送到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
