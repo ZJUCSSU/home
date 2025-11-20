@@ -3,3 +3,4 @@ site/
 my_scripts/
 .venv/
 .vscode/
+.DS_Store

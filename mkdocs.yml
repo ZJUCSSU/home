@@ -175,9 +175,11 @@ extra_javascript: # 额外 JS
   - javascripts/extra.js
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
 #   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
-# extra_css: # 额外 CSS
-#   - stylesheets/extra.css
-#   - stylesheets/table.css
+extra_css: # 额外 CSS
+  # - stylesheets/extra.css
+  - stylesheets/table.css
+  - stylesheets/tag.css
+  - stylesheets/card.css
 #   - https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css # 访问统计转圈加载样式
 #   - CSS/admonition.css
 #   - CSS/other.css
@@ -186,9 +188,10 @@ extra_javascript: # 额外 JS
 plugins:
 #  - callouts # 支持 obsidian-like callout 语法，例如：```> [!note] title \n> content...```
   - macros # 本地pip install mkdocs-macros-plugin 安装插件
-  - tags
   - search:
-      separator: '[\s\u200b\-]' # 支持中文搜素
+      lang:
+        - en
+        - zh
 # plugins: # 插件
 #   - git-revision-date-localized: # 文章日期显示插件（pip install mkdocs-git-revision-date-localized-plugin）注意：build 时此插件加载非常缓慢！
 #       enable_creation_date: true # 显示创建的日期
@@ -275,17 +278,8 @@ nav:
   - 意见反馈:
       - 如何提交ISSUE: 意见反馈/ISSUE.md
       - 吐槽回应: 意见反馈/吐槽回应.md
-      - 通知答疑: 意见反馈/通知答疑.md
       - 匿名反馈: 意见反馈/匿名反馈.md
   - 知识共享:
-      - 培养方案:
-          - 计算机科学与技术: 知识共享/培养方案/CS/cs_site.md
-          - 软件工程: 知识共享/培养方案/软件工程/se_site.md
-          - 信息安全: 知识共享/培养方案/信息安全/is_site.md
-          - 工业设计: 知识共享/培养方案/工业设计/id_site.md
-          - 人工智能: 知识共享/培养方案/人工智能/ai.md
-          - 通识课程: 知识共享/培养方案/general/general_courses.md
-          - 跨专业课程: 知识共享/培养方案/general/cross_majors.md
       - 课程学习: 知识共享/课程笔记/example.md
       - 课外学习: 知识共享/课外学习/example.md
   - 资源分享:
