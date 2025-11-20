@@ -179,6 +179,7 @@ extra_css: # 额外 CSS
   # - stylesheets/extra.css
   - stylesheets/table.css
   - stylesheets/tag.css
+  - stylesheets/card.css
 #   - https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css # 访问统计转圈加载样式
 #   - CSS/admonition.css
 #   - CSS/other.css
