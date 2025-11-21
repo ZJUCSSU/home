@@ -1,9 +1,9 @@
 ---
 cards:
-  - ddl: 2025-05-22
-    title: 文军新长征，重跑"西迁路"
-    detail: 下载"浙大体艺"APP，登录后在首页模块中进入"我的比赛"进行报名，报名截止时间为【5月22日】
-    href:  https://tyys.zju.edu.cn/redir.php?catalog_id=191753&object_id=215433
+  - ddl: 2025-11-23
+    title: 2025"三好杯"户外攀登比赛报名
+    detail: 新手老手都可以来积极参与,报名截止11月23日24点
+    href: https://v.wjx.cn/vm/rXL7AsT.aspx
     tags:
       - text: 体育赛事
         class: tag-category
