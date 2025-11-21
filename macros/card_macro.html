@@ -1,0 +1,24 @@
+{% macro render_cards(cards) %}
+{% for item in cards|sort(attribute='ddl', reverse=True) %}
+<div class='card'>
+  <div class="dot"></div>
+  <div class="snapshot">
+    <div class="title">{{ item.title }}</div>
+    <div class="deadline" data-deadline="{{ item.ddl }}"></div>
+    {% if item.tags %}
+    <div class="card-tags">
+      {% for tag in item.tags %}
+      <span class="tag {{ tag.class }}">{{ tag.text }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <div class="detail">
+      <text>{{ item.detail }}</text>
+    </div>
+  </div>
+  <a href="{{ item.href }}">
+    <div class="details">→</div>
+  </a>
+</div>
+{% endfor %}
+{% endmacro %}
